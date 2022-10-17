@@ -29,6 +29,25 @@ body {
 
 /* index.html styles*/
 
+ul, ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* page header */
+
+.page-header {
+  background-color: var(--secondary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 /* logo */
 .logo-web {
   font-family: 'Raleway';
@@ -45,10 +64,16 @@ body {
 }
 
 .list {
-  list-style: none;
+  list-style-type: none;
 }
 
 /* navigation */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
 
 .site-nav .link {
   color: var(--primary-text-color);
@@ -85,13 +110,16 @@ body {
 
 .hero {
   background-color: var(--secondary-bg-color);
+  text-align: center;
+  margin-bottom: 94px;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -100,13 +128,17 @@ body {
 /* hero button */
 
 .hero-button {
+  display: inline-block;
   color: var(--secondary-color);
   background-color: var(--hero-button-bg-color);
+  min-width: 216px;
   border-color: transparent;
+  border-radius: 4px;
+  padding: 10px 29px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   cursor: pointer;
   letter-spacing: 0.06em;
 }
@@ -118,6 +150,12 @@ body {
 }
 
 /* section */
+
+.section {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -134,11 +172,29 @@ body {
 }
 
 .section-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   color: var(--primary-text-color);
+}
+
+/* faeture */
+
+.feature-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 
 .feature-list .title {
@@ -158,6 +214,10 @@ body {
 
 .section-team {
   background-color: var(--filter-btn-team-section-bg-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .member-name {
@@ -175,6 +235,8 @@ body {
 
 .footer {
   background-color: var(--secondary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo-web {
@@ -219,6 +281,11 @@ body {
 
 /* portfolio styles */
 
+.filter-list {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
 .btn-filter {
   color: var(--primary-additional-color);
   background-color: var(--filter-btn-team-section-bg-color);
@@ -246,7 +313,14 @@ body {
 
 /* projects */
 
+.projects-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .project-title {
+  margin-top: 0px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -254,6 +328,8 @@ body {
 }
 
 .project-descr {
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-additional-color);
